@@ -5,7 +5,7 @@ android {
     buildToolsVersion '28.0.3'
 
     defaultConfig {
-        applicationId "de.baumann.hhsmoodle"
+        applicationId "br.net.borges.cursos"
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
         minSdkVersion 21

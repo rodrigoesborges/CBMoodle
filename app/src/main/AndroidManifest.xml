@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="de.baumann.hhsmoodle">
+    package="br.net.borges.cursos">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission
@@ -40,7 +40,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data android:scheme="http" />
                 <data android:scheme="https" />
-                <data android:host="moodle.huebsch.ka.schule-bw.de" />
+                <data android:host="cursos.borges.net.br" />
             </intent-filter>
 
         </activity>

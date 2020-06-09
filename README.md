@@ -1,41 +1,41 @@
 # FOSS Moodle
 
-FOSS Moodle zeigt dir die mobile Internetseite von Moodleinstanzen an. Dazu müssen Link, Benutzername und Passwort deines Accounts eingegeben werden. Standardmäßig ist die App für die Heinrich-Hübsch-Schule in Karlsruhe entwickelt.
+FOSS Moodle O FOSS Moodle mostra o site móvel das instâncias Moodle. Para isso, o link, o nome de usuário e a senha da sua conta devem ser inseridos. Por padrão, o aplicativo é desenvolvido para a Plataforma de Aprendizado Coletivo Cursos Borges.
 
 ------
-### FUNKTIONEN
+### Funções
 ------
 
-- alle Funktionen der mobilen Moodleseite
-- automatische Anmeldung
-- eigene Lesezeichenverwaltung
-- App-Schutz durch PIN
-- Gestensteuerung
-- keine Werbung
-- keine unnötigen Berechtigungen
-- geringer Speicherbedarf (<3mb)
-- Quelloffen: https://github.com/scoute-dich/HHSMoodle
+- todas as funções app mobile do Moodle Moodle 
+- registro automático
+- gerenciamento próprio de favoritos
+- Proteção de aplicativo com PIN
+- Controle de gestos
+- Sem publicidade
+- Sem autorizações desnecessárias 
+- baixa exigência de memória (<3mb) 
+- Código aberto: https://github.com/rodrigoesborges/CBMoodle
 
 ### Download
-<a href="https://play.google.com/store/apps/details?id=de.baumann.hhsmoodle" target="_blank">
+<a href="https://play.google.com/store/apps/details?id=br.net.borges.cursos" target="_blank">
 <img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="90"/></a>
-<a href="https://f-droid.org/packages/de.baumann.hhsmoodle/">
+<a href="https://f-droid.org/packages/br.net.borges.cursos/">
 <img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="90"></a>
 
-Die offizielle Moodle Mobile App gibt es [hier für Android und IOS](https://download.moodle.org/mobile).
+O app Moddle oficial está disponível [aqui para Android e IOS](https://download.moodle.org/mobile).
 
 ### Links:
-- [Änderungen](https://github.com/scoute-dich/HHSMoodle/blob/master/CHANGELOG.md)
-- [Lizenz](https://github.com/scoute-dich/HHSMoodle/blob/master/LICENSE.md)
+- [Changelog](https://github.com/rodrigoesborges/CBMoodle/blob/master/CHANGELOG.md))
+- [Licença](https://github.com/rodrigoesborges/CBMoodle/blob/master/LICENSE.md)
 
-![1](https://github.com/scoute-dich/HHSMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/1.jpg)
+![1](https://github.com/rodrigoesborges/CBMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/1.jpg)
 
-![2](https://github.com/scoute-dich/HHSMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/2.jpg)
+![2](https://github.com/rodrigoesborges/CBMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/2.jpg)
 
-![3](https://github.com/scoute-dich/HHSMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/3.jpg)
+![3](https://github.com/rodrigoesborges/CBMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/3.jpg)
 
-![4](https://github.com/scoute-dich/HHSMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/4.jpg)
+![4](https://github.com/rodrigoesborges/CBMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/4.jpg)
 
-![5](https://github.com/scoute-dich/HHSMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/5.jpg)
+![5](https://github.com/rodrigoesborges/CBMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/5.jpg)
 
-![6](https://github.com/scoute-dich/HHSMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/6.jpg)
+![6](https://github.com/rodrigoesborges/CBMoodle/blob/master/fastlane/metadata/android/de-DE/images/phoneScreenshots/6.jpg)
