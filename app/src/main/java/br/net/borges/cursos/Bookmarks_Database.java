@@ -17,7 +17,7 @@
     If not, see <http://www.gnu.org/licenses/>.
  */
 
-package de.baumann.hhsmoodle;
+package br.net.borges.cursos;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

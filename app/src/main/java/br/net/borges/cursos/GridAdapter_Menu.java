@@ -1,4 +1,4 @@
-package de.baumann.hhsmoodle;
+package br.net.borges.cursos;
 
 import android.content.Context;
 import android.view.LayoutInflater;

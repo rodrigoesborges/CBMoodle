@@ -17,7 +17,7 @@
     If not, see <http://www.gnu.org/licenses/>.
  */
 
-package de.baumann.hhsmoodle;
+package br.net.borges.cursos;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -159,7 +159,7 @@ class Class_Helper {
             AlertDialog.Builder builder = new AlertDialog.Builder(activity);
             final View dialogView = View.inflate(activity, R.layout.dialog_edit_login, null);
             final EditText moodle_link = dialogView.findViewById(R.id.moodle_link);
-            moodle_link.setText(sharedPref.getString("link", "https://moodle.huebsch.ka.schule-bw.de/moodle/"));
+            moodle_link.setText(sharedPref.getString("link", "https://cursos.borges.net.br/"));
             final EditText moodle_userName = dialogView.findViewById(R.id.moodle_userName);
             moodle_userName.setText(sharedPref.getString("username", ""));
             final EditText moodle_userPW = dialogView.findViewById(R.id.moodle_userPW);
@@ -327,7 +327,7 @@ class Class_Helper {
                             try {
                                 // clearing app data
                                 Runtime runtime = Runtime.getRuntime();
-                                runtime.exec("pm clear de.baumann.hhsmoodle");
+                                runtime.exec("pm clear br.net.borges.cursos");
                             } catch (Exception e) {
                                 e.printStackTrace();
                             }

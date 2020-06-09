@@ -17,7 +17,7 @@
     If not, see <http://www.gnu.org/licenses/>.
  */
 
-package de.baumann.hhsmoodle;
+package br.net.borges.cursos;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -192,10 +192,10 @@ public class Activity_Main extends AppCompatActivity {
         try {
             if (sharedPref.getString("username", "").length() < 1 ||
                     sharedPref.getString("password", "").length() < 1  ||
-                    sharedPref.getString("link", "https://moodle.huebsch.ka.schule-bw.de/moodle/").length() < 1 ) {
+                    sharedPref.getString("link", "https://moodle.huebsch.ka.schule-bw.br.net.borges.cursos/").length() < 1 ) {
                 Class_Helper.setLoginData (activity);
             } else {
-                mWebView.loadUrl(sharedPref.getString("favoriteURL", "https://moodle.huebsch.ka.schule-bw.de/moodle/"));
+                mWebView.loadUrl(sharedPref.getString("favoriteURL", "https://moodle.huebsch.ka.schule-bw.br.net.borges.cursos/"));
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -523,7 +523,7 @@ public class Activity_Main extends AppCompatActivity {
         bookmarkList.setNumColumns(1);
 
         if (bookmarkList.getAdapter().getCount() == 0) {
-            String url = sharedPref.getString("link", "https://moodle.huebsch.ka.schule-bw.de/moodle/");
+            String url = sharedPref.getString("link", "https://moodle.huebsch.ka.schule-bw.br.net.borges.cursos/");
             db.insert("Dashboard", url, "14", "");
             setBookmarksList();
         }

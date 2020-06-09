@@ -1,4 +1,4 @@
-package de.baumann.hhsmoodle;
+package br.net.borges.cursos;
 
 
 class GridItem_Menu {
