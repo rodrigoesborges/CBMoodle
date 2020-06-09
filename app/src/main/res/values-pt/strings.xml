@@ -1,0 +1,116 @@
+<resources>
+
+
+    // Application
+
+    <string name="app_name">FOSS Moodle</string>
+    <string name="app_permissions">&lt;i&gt; \"Acessar armazenamento \" permissão: &lt;/i&gt; &lt;br&gt;         usado para salvar downloads no cartão sd. &lt;br&gt; &lt;br&gt;          &lt;i&gt; Conceda permissão depois: &lt;/i&gt; &lt;br&gt;         Se você não permitir isso agora, poderá fazê-lo mais tarde. Por favor, abra \"Configurações -&gt; Conceder permissão \".</string>
+
+    <string name="app_share">Compartilhar usando:</string>
+
+
+    // Moodle
+
+    <string name="subjects_color_red">Vermelho</string>
+    <string name="subjects_color_pink">Rosa</string>
+    <string name="subjects_color_purple">Roxa</string>
+    <string name="subjects_color_blue">Azul</string>
+    <string name="subjects_color_teal">Cerceta</string>
+    <string name="subjects_color_green">Verde</string>
+    <string name="subjects_color_lime">Lima</string>
+    <string name="subjects_color_yellow">Amarelo</string>
+    <string name="subjects_color_orange">laranja</string>
+    <string name="subjects_color_brown">Castanho</string>
+
+
+    // Login
+
+    <string name="login_user">Nome do usuário</string>
+    <string name="login_link">Link da sua instância do Moodle</string>
+    <string name="login_password">Senha (8 caracteres): letra grande /pequena, número, sinal extra)</string>
+    <string name="login_automatic_title">Login automático</string>
+    <string name="login_text_edit">Por favor, preencha os dados de login.</string>
+
+
+
+    // Bookmarks
+
+    <string name="bookmark_remove">Excluir</string>
+    <string name="bookmark_remove_confirm">Excluir marcador?</string>
+    <string name="bookmark_setFav">Iniciar site</string>
+    <string name="bookmark_edit">Editar</string>
+    <string name="bookmark_edit_hint">Novo título…</string>
+    <string name="bookmark_saved">Marcador salvo.</string>
+    <string name="bookmark_saved_not">O marcador já existe.</string>
+    <string name="bookmark_icon">Ícone</string>
+
+    // Menu Items
+
+    <string name="action_bookmark">Favoritos</string>
+    <string name="action_menu">Cardápio</string>
+    <string name="action_search_prev">Próximo</string>
+    <string name="action_search_next">Anterior</string>
+    <string name="action_search_cancel">Cancelar pesquisa</string>
+
+    <string name="menu_share">Compartilhar</string>
+    <string name="menu_finish">Saída</string>
+
+    <string name="menu_save_bookmark">Salve </string>
+    <string name="menu_save_pdf">Impressão</string>
+
+    <string name="menu_more_settings">Definições</string>
+    <string name="menu_more_files">Transferências</string>
+
+    <string name="menu_search">Procurar</string>
+    <string name="menu_reload">recarregar</string>
+    <string name="menu_openInBrowser">Abra no navegador</string>
+
+
+    // Settings
+
+    <string name="settings_security_moodle">Dados de login (Moodle)</string>
+    <string name="settings_security_moodle_summary">Digite seus dados de login no Moodle. Será preenchido automaticamente. Por favor, reinicie o aplicativo depois de editar o seu         dados e excluir marcadores não utilizados.</string>
+
+    <string name="settings_license_about_summary">Saiba mais sobre o aplicativo.</string>
+
+    <string name="settings_security_pin">PIN (acesso ao aplicativo)</string>
+    <string name="settings_security_pin_summary">Defina um pino para proteger o aplicativo contra acesso indesejado. Use apenas números.</string>
+
+    // SnackBar
+
+    <string name="toast_yes">Está bem</string>
+    <string name="toast_cancel">Cancelar</string>
+    <string name="toast_download">Download do arquivo:</string>
+    <string name="toast_download_1">Baixar:</string>
+    <string name="toast_download_2">Transferência concluída. Abrir gerenciador de downloads?</string>
+    <string name="toast_wrongPW">Senha incorreta.</string>
+    <string name="toast_notPrint">Nenhuma impressora encontrada.</string>
+    <string name="toast_notBack">Não pode voltar atrás.</string>
+    <string name="toast_notForward">Não pode seguir em frente.</string>
+
+    // Dialogs
+
+    <string name="dialog_help_title">Socorro</string>
+    <string name="dialog_help_text">&lt;b&gt; Favoritos &lt;/b&gt; &lt;br&gt;         \u25AA Clique para abrir a entrada. &lt;br&gt;         \u25AA Pressione e segure para editar a entrada. &lt;br&gt; &lt;br&gt;          &lt;b&gt; Deslize &lt;/b&gt; &lt;br&gt;         Deslize o dedo na barra de ferramentas: &lt;br&gt;         \u25AA esquerda /direita para voltar /avançar no histórico. &lt;br&gt;         \u25AA superior /inferior para rolar para a parte superior /inferior do site.</string>
+
+    <string name="dialog_license_title">Copyright © 2020 por AOSD</string>
+    <string name="dialog_license_text">&lt;i&gt; Para mais informações, visite: https://github.com/scoute-dich/HHSMoodle &lt;/i&gt; &lt;br&gt; &lt;br&gt;          Este programa é um software gratuito: você pode redistribuí-lo e /ou modificar         sob os termos da Licença Pública Geral GNU, publicada pela         Free Software Foundation, versão 3 da Licença ou         (a seu critério) qualquer versão posterior.          Este programa é distribuído na esperança de que seja útil,         mas SEM QUALQUER GARANTIA; sem sequer a garantia implícita de         COMERCIALIZAÇÃO ou ADEQUAÇÃO PARA UMA FINALIDADE ESPECÍFICA. Veja o         GNU General Public License para mais detalhes.          Você deveria ter recebido uma cópia da Licença Pública Geral GNU         junto com este programa. Caso contrário, consulte http://www.gnu.org/licenses. &lt;br&gt; &lt;br&gt;          &lt;i&gt; As seguintes bibliotecas de código aberto ou projetos são usados neste software: &lt;/i&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt;          &lt;b&gt; Ícones de design de materiais &lt;/b&gt; &lt;br&gt;         Licença de fonte aberta SIL, versão 1.1. &lt;br&gt;         Templário &lt;br&gt;         &lt;i&gt; https://github.com/Templarian/MaterialDesign &lt;/i&gt;</string>
+
+    <string name="dialog_sortName">Nome</string>
+    <string name="dialog_sortIcon">Ícone</string>
+    <string name="dialog_searchHint">Digite o termo de pesquisa</string>
+
+
+    // Password
+
+    <string name="pw_hint">apenas números</string>
+    <string name="pw_forgotten">Pin esquecido?</string>
+    <string name="pw_forgotten_dialog">Redefinir dados do aplicativo?</string>
+
+
+    <string name="setting_sort">Ordenação</string>
+    <string name="setting_sort_summary">Classifique os favoritos por nome ou ícone.</string>
+
+    <string name="dialog_help_summary">Algumas dicas úteis para usar o aplicativo.</string>
+
+</resources>
