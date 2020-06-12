@@ -3,7 +3,7 @@
 
     // Application
 
-    <string name="app_name">Cursos Borges - MOODLE FOSS</string>
+    <string name="app_name">Aprendizado Coletivo B - Moodle FOSS</string>
     <string name="app_permissions">&lt;i&gt; \"Acessar armazenamento \" permissão: &lt;/i&gt; &lt;br&gt;         usado para salvar downloads no cartão sd. &lt;br&gt; &lt;br&gt;          &lt;i&gt; Conceda permissão depois: &lt;/i&gt; &lt;br&gt;         Se você não permitir isso agora, poderá fazê-lo mais tarde. Por favor, abra \"Configurações -&gt; Conceder permissão \".</string>
 
     <string name="app_share">Compartilhar usando:</string>

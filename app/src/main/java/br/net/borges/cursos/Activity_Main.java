@@ -192,10 +192,10 @@ public class Activity_Main extends AppCompatActivity {
         try {
             if (sharedPref.getString("username", "").length() < 1 ||
                     sharedPref.getString("password", "").length() < 1  ||
-                    sharedPref.getString("link", "https://moodle.huebsch.ka.schule-bw.br.net.borges.cursos/").length() < 1 ) {
+                    sharedPref.getString("link", "https://cursos.borges.net.br/").length() < 1 ) {
                 Class_Helper.setLoginData (activity);
             } else {
-                mWebView.loadUrl(sharedPref.getString("favoriteURL", "https://moodle.huebsch.ka.schule-bw.br.net.borges.cursos/"));
+                mWebView.loadUrl(sharedPref.getString("favoriteURL", "https://cursos.borges.net.br/"));
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -437,7 +437,7 @@ public class Activity_Main extends AppCompatActivity {
         Class_Helper.setBottomSheetBehavior(bottomSheetDialog, dialogView);
     }
 
-    @Override
+    :@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return super.onCreateOptionsMenu(menu);
@@ -523,7 +523,7 @@ public class Activity_Main extends AppCompatActivity {
         bookmarkList.setNumColumns(1);
 
         if (bookmarkList.getAdapter().getCount() == 0) {
-            String url = sharedPref.getString("link", "https://moodle.huebsch.ka.schule-bw.br.net.borges.cursos/");
+            String url = sharedPref.getString("link", "https://cursos.borges.net.br/");
             db.insert("Dashboard", url, "14", "");
             setBookmarksList();
         }

@@ -3,7 +3,7 @@
 
     // Application
 
-    <string name="app_name">Cursos Borges - MOODLE FOSS</string>
+    <string name="app_name">Aprendizado Coletivo B - Moodle FOSS</string>
     <string name="app_permissions">
 
         &lt;i>\"Access storage\" permission:&lt;/i>&lt;br>

@@ -158,7 +158,7 @@ class Class_Helper {
         try {
             AlertDialog.Builder builder = new AlertDialog.Builder(activity);
             final View dialogView = View.inflate(activity, R.layout.dialog_edit_login, null);
-            final EditText moodle_link = dialogView.findViewById(R.id.moodle_link);
+            final TextView moodle_link = dialogView.findViewById(R.id.moodle_link);
             moodle_link.setText(sharedPref.getString("link", "https://cursos.borges.net.br/"));
             final EditText moodle_userName = dialogView.findViewById(R.id.moodle_userName);
             moodle_userName.setText(sharedPref.getString("username", ""));
